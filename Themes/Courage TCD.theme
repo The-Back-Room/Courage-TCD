@@ -1,0 +1,102 @@
+; Copyright � Microsoft Corp.
+
+[Theme]
+; Windows 7 - IDS_THEME_DISPLAYNAME_AERO
+DisplayName=Courage TCD
+BrandImage=%SystemRoot%\Resources\Themes\Courage TCD\Courage TCD.png
+
+; Computer - SHIDI_SERVER
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\Courage TCD\Icons\This PC.ico
+
+; UsersFiles - SHIDI_USERFILES
+[CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-123
+
+; Network - SHIDI_MYNETWORK
+[CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-25
+
+; Recycle Bin - SHIDI_RECYCLERFULL SHIDI_RECYCLER
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+Full=%SystemRoot%\System32\imageres.dll,-54
+Empty=%SystemRoot%\System32\imageres.dll,-55
+
+[Control Panel\Cursors]
+AppStarting=%SystemRoot%\Resources\Themes\Courage TCD\Cursors\dark\appstarting.ani
+Arrow=%SystemRoot%\Resources\Themes\Courage TCD\Cursors\dark\arrow.cur
+Crosshair=%SystemRoot%\Resources\Themes\Courage TCD\Cursors\dark\crosshair.cur
+Hand=%SystemRoot%\Resources\Themes\Courage TCD\Cursors\dark\hand.cur
+Help=%SystemRoot%\Resources\Themes\Courage TCD\Cursors\dark\help.cur
+IBeam=%SystemRoot%\Resources\Themes\Courage TCD\Cursors\dark\ibeam.cur
+No=%SystemRoot%\Resources\Themes\Courage TCD\Cursors\dark\no.cur
+NWPen=%SystemRoot%\Resources\Themes\Courage TCD\Cursors\dark\nwpen.cur
+SizeAll=%SystemRoot%\Resources\Themes\Courage TCD\Cursors\dark\sizeall.cur
+SizeNESW=%SystemRoot%\Resources\Themes\Courage TCD\Cursors\dark\sizenesw.cur
+SizeNS=%SystemRoot%\Resources\Themes\Courage TCD\Cursors\dark\sizens.cur
+SizeNWSE=%SystemRoot%\Resources\Themes\Courage TCD\Cursors\dark\sizenwse.cur
+SizeWE=%SystemRoot%\Resources\Themes\Courage TCD\Cursors\dark\sizewe.cur
+UpArrow=%SystemRoot%\Resources\Themes\Courage TCD\Cursors\dark\uparrow.cur
+Wait=%SystemRoot%\Resources\Themes\Courage TCD\Cursors\dark\wait.ani
+Pin=%SystemRoot%\Resources\Themes\Courage TCD\Cursors\dark\pin.cur
+DefaultValue=Concept
+
+[Control Panel\Desktop]
+Wallpaper=%SystemRoot%\Resources\Themes\Courage TCD\Wallpapers\001.png
+TileWallpaper=0
+WallpaperStyle=10
+Pattern=
+
+[VisualStyles]
+Path=%SystemRoot%\resources\themes\Aero\Aero.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+ColorizationColor=
+AutoColorization=1
+Transparency=1
+Composition=1
+VisualStyleVersion=10
+AppMode=Light
+SystemMode=Dark
+
+[MasterThemeSelector]
+MTSM=RJSPBS
+
+[Sounds]
+; IDS_SCHEME_DEFAULT
+SchemeName=Courage TCD
+
+[AppEvents\Schemes\Apps\.Default\.Default]
+DefaultValue=%SystemRoot%\Resources\Themes\Courage TCD\Sounds\default_beep.wav
+[AppEvents\Schemes\Apps\.Default\AppGPFault]
+DefaultValue=%SystemRoot%\Resources\Themes\Courage TCD\Sounds\error.wav
+[AppEvents\Schemes\Apps\.Default\DeviceConnect]
+DefaultValue=%SystemRoot%\Resources\Themes\Courage TCD\Sounds\device_connect.wav
+[AppEvents\Schemes\Apps\.Default\DeviceDisconnect]
+DefaultValue=%SystemRoot%\Resources\Themes\Courage TCD\Sounds\device_disconnect.wav
+[AppEvents\Schemes\Apps\.Default\Maximize]
+DefaultValue=%SystemRoot%\Resources\Themes\Courage TCD\Sounds\maximize.wav
+[AppEvents\Schemes\Apps\.Default\MenuPopup]
+DefaultValue=%SystemRoot%\Resources\Themes\Courage TCD\Sounds\menu_popup.wav
+[AppEvents\Schemes\Apps\.Default\Minimize]
+DefaultValue=%SystemRoot%\Resources\Themes\Courage TCD\Sounds\minimize.wav
+[AppEvents\Schemes\Apps\.Default\RestoreDown]
+DefaultValue=%SystemRoot%\Resources\Themes\Courage TCD\Sounds\restore_down.wav
+[AppEvents\Schemes\Apps\.Default\RestoreUp]
+DefaultValue=%SystemRoot%\Resources\Themes\Courage TCD\Sounds\restore_up.wav
+[AppEvents\Schemes\Apps\.Default\SystemAsterisk]
+DefaultValue=%SystemRoot%\Resources\Themes\Courage TCD\Sounds\asterisk.wav
+[AppEvents\Schemes\Apps\.Default\SystemExclamation]
+DefaultValue=%SystemRoot%\Resources\Themes\Courage TCD\Sounds\exclamation.wav
+[AppEvents\Schemes\Apps\.Default\SystemHand]
+DefaultValue=%SystemRoot%\Resources\Themes\Courage TCD\Sounds\critical_stop.wav
+[AppEvents\Schemes\Apps\.Default\SystemNotification]
+DefaultValue=%SystemRoot%\Resources\Themes\Courage TCD\Sounds\system_notification.wav
+[AppEvents\Schemes\Apps\.Default\SystemQuestion]
+DefaultValue=%SystemRoot%\Resources\Themes\Courage TCD\Sounds\question.wav
+[AppEvents\Schemes\Apps\.Default\WindowsUAC]
+DefaultValue=%SystemRoot%\Resources\Themes\Courage TCD\Sounds\uac.wav
+[AppEvents\Schemes\Apps\Explorer\EmptyRecycleBin]
+DefaultValue=%SystemRoot%\Resources\Themes\Courage TCD\Sounds\empty_bin.wav
+[AppEvents\Schemes\Apps\.Default\ChangeTheme]
+DefaultValue=%SystemRoot%\Resources\Themes\Courage TCD\Sounds\change_theme.wav
